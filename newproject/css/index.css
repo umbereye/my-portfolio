@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}.header{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+}
+.navbar{float: right;
+    /* background-color: gray; */
+    height: 10vh;margin-top: 1cm;
+}
+.navbar ul{ 
+    font-weight: bold;
+    color: white;
+    list-style: none;
+    /* float: right; */
+    gap: 20px;
+    font-size: 20px;
+    display: flex;
+   padding-top: 0.5cm;
+    margin-right: 40px;
+}
+.navbar ul li a{
+    color: aliceblue; 
+    text-decoration: none;
+    
+}
+.navbar ul li a:hover{
+    color:black;
+    background-color: rgb(254, 247, 247);
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* text-decoration: none; */
+
+}.content{
+    width: 100%;
+    height: 85vh;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.content-part1{
+    width: 50%;
+    height: 85vh;
+    /* background-color: red; */
+}.content-part2{ width: 45%;
+    height: 85vh;
+    background-image: url(../image/restoimage.jpg);
+}.content-part1 span{
+    color: rgb(222, 23, 79);
+}.content-part1 h1{
+    font-size: 100;
+    text-align: center;
+    padding-top: 1cm;
+}.content-part1 p{
+    /* line-height: 1px; */
+    padding-top: 2cm;
+    margin-left: 2cm;
+    font-size: 20px;
+    /* line-height: 0.4cm; */
+}.content-part1 button{
+    border: none;
+    margin-top:2cm;
+    background-color: brown;
+    margin-left: 2cm;
+    font-size: 25px;
+    border-radius: 10px;
+    width: 250px;
+    height: 80px;
+    padding: 15px;
+}
+.product{
+    padding-top: 2cm;
+    padding-bottom: 40px;
+}
+.day-per-day{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1cm;
+}.product-one{
+    font-size: 20px;
+    /* line-height: 1px; */
+}
+h1{
+    text-align: center;
+}.logoimage{
+    background-color: black;
+    /* height: 2px; */
+}
